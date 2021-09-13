@@ -3,9 +3,25 @@ background-color: aquamarine;
 height: 20vh;
 display: flex;
 }
+
+
 img#meme {
-    height: 30vh;
+  animation-duration: 3s;
+  animation-name: slidein;
 }
+
+@keyframes slidein {
+  from {
+    margin-left: 100%;
+    width: 300%;
+  }
+
+  to {
+    margin-left: 0%;
+    width: 100%;
+  }
+}
+
 #btn-6, #btn-1, #btn-2 {
     background-color: chartreuse;
 }
@@ -43,6 +59,17 @@ div.divone, .divtwo, .divthree{
 
 #nacho {
     width:300px;
+}
+
+#nacho-btn{
+    padding: 20px 32px 20px 32px;
+     background-image: linear-gradient(to right, #ff00b7 0%, #005eff 51%, #5eff00 100%);
+     color: white;
+     font-size: 24px;
+     font-family: "Comic Sans MS";
+}
+#nacho-btn:hover{
+ background-image: linear-gradient(to right, #d0ff00 0%, #ff0015 51%, #00b7ff 100%);
 }
 
 h2.hiya {
