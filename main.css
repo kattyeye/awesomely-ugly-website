@@ -34,19 +34,29 @@ section.columns {
     padding: 8% 10% 8% 10%;
 }
 
-div.divone {
+div.divone, .divtwo, .divthree{
     border-right: solid 5px purple;
     border-left: solid 5px purple;
     padding-left: 15px;
     padding-right: 11px;
 }
 
+#nacho {
+    width:300px;
+}
+
 h2.hiya {
     text-decoration: underline 2px;;
     color:red;
 }
-p{
-    font-size: 24px;
+h2, p{
+    font-family: "Comic Sans MS", "Comic Sans", cursive;
+}
+p {
+    font-size: 25px;
+}
+h2{
+    font-size: 35px;
 }
 p#p1 {
     color:yellow
@@ -57,10 +67,15 @@ p#p2 {
 p#p3 {
     color:rgb(0, 255, 76)
 }
-p#p4 {
+#p4 {
     color:rgb(255, 0, 119);
-    rotate: 3;
+    transform: rotate(-90deg);
 }
 p#p5 {
     color:rgb(0, 255, 234)
 }
+p#p6 {
+    color:violet;
+}
+
+
