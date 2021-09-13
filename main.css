@@ -1,0 +1,66 @@
+nav#navbar {
+background-color: aquamarine;
+height: 20vh;
+display: flex;
+}
+img#meme {
+    height: 30vh;
+}
+#btn-6, #btn-1, #btn-2 {
+    background-color: chartreuse;
+}
+
+button:hover {
+    background-image: linear-gradient(to right, #f6d365 0%, #fda085 51%, #f6d365 100%);
+
+}
+
+input {
+    display: flex;
+    flex-direction: row;
+    margin-left: 100px;
+    background-color: coral;
+
+}
+
+section.columns {
+    height: 100vh;
+    background-color: lightgray;
+    border: solid purple;
+    border-radius: 25%;
+    border-width: 10px;
+    box-shadow: 20px 20px red;
+    display: flex;
+    padding: 8% 10% 8% 10%;
+}
+
+div.divone {
+    border-right: solid 5px purple;
+    border-left: solid 5px purple;
+    padding-left: 15px;
+    padding-right: 11px;
+}
+
+h2.hiya {
+    text-decoration: underline 2px;;
+    color:red;
+}
+p{
+    font-size: 24px;
+}
+p#p1 {
+    color:yellow
+}
+p#p2 {
+    color:rgb(47, 0, 255)
+}
+p#p3 {
+    color:rgb(0, 255, 76)
+}
+p#p4 {
+    color:rgb(255, 0, 119);
+    rotate: 3;
+}
+p#p5 {
+    color:rgb(0, 255, 234)
+}
