@@ -105,4 +105,26 @@ p#p6 {
     color:violet;
 }
 
+#esq {
+    width:inherit;
+    display: flex;
+    float:inherit;
 
+}
+
+
+#nacho-text {
+    display: flex;
+    float: inherit;
+    background-color: teal;
+    color: thistle;
+    padding-top: 50px;
+    padding-bottom: 50px;
+}
+
+footer {
+    display:flex;
+    align-items: center;
+    align-content: center;
+    justify-content: center;
+}
